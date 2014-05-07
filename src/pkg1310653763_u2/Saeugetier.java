@@ -12,8 +12,6 @@ package pkg1310653763_u2;
  */
 public class Saeugetier {
    public String Name;
-
-    
    public int Alter;
    public String Geschlecht;
    

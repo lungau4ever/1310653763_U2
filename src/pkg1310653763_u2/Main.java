@@ -28,6 +28,12 @@ public class Main {
         Mensch eins = new Mensch("Franzi",25,"männlich");
         System.out.println(eins.printAll());
         
+        Kind manuel = new Kind("Manuel","Dorfer",24);
+        System.out.println(manuel.status());
+        
+        Student manuel2 =new Student("Manuel","Dorfer",24,1310653763,"Web Business & Technology");
+        System.out.println(manuel2.status());
+        
        Auto audi = new Auto((short)4,color.Black,(short)420,(short)5,(short)4);
        Auto bmw = new Auto((short)4,color.Red,(short)170,(short)5,(short)4);
        Auto vw = new Auto((short)4,color.White,(short)265,(short)5,(short)4);
